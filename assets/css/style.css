@@ -1,0 +1,52 @@
+*{
+  font-family: Roboto,sans-serif;
+}
+
+body{
+  background-color: #333333;
+}
+
+p{
+}
+
+h1,p {
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+#AreaToInput{
+  width: 70%;
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+}
+
+#AreaToHangMan {
+  text-align: center;
+  width: 30%;
+  background-color: #6161a0;
+  color: white;
+}
+
+ /* Mobil */
+
+@media (max-width: 768px) {
+
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #AreaToInput{
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  #AreaToHangMan {
+    width: 100%;
+  }
+
+}

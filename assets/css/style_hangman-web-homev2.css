@@ -1,0 +1,126 @@
+*{
+    font-family: Roboto,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+h1,h2,p,input {
+    display: flex;
+    color : #88c2ff;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+
+    margin: 20px 5px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+#inputArea {
+    display: flex;
+    justify-content: center;
+}
+
+/*  #DCFFD9 = white */
+/* #333333 = Grey */
+/*DCFFD9 = white */
+
+#inputSubmit {
+    width: 40px;
+    height: 40px;
+    border: none;
+
+    background: url(../images/ValidPhone.png) center no-repeat;
+    background-size: 40px;
+    cursor: pointer;
+}
+
+
+#TitlePrintWord {
+    letter-spacing: 5px;
+    font-size: 48px;
+}
+
+#inputLetter {
+    width: 20vw;
+    height: 36px;
+    font-size: 20px;
+    color: #333333;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+#borderSeparation {
+    width: 1px;
+    background: #333333;
+    border: #333333 2px solid;
+    border-radius: 2px;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    max-width: 90vw;
+    height: 500px;
+    width: 80vw;
+    background-color: #1c1c1c;
+    border-radius: 25px;
+}
+
+#AreaToInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /*width: 50%;*/
+    width: 50%;
+    color: #DCFFD9;
+
+    margin: 20px 0;
+}
+
+#printWord {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    color: #DCFFD9;
+    margin: 20px 0;
+}
+
+#sizehangman {
+    position: relative;
+    height: 400px;
+}
+
+#hangmantest1 {
+    width: 300px;
+    height: 5px;
+
+    background: #333333;
+}
+
+/* Mobil */
+
+@media (max-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #AreaToInput{
+        width: 100%;
+    }
+}

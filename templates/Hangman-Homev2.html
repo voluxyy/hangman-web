@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/style_hangman-web-homev2.css">
+    <link rel="stylesheet" href="../assets/css/hangman.css">
+    <link rel="icon"
+          href="https://imgs.search.brave.com/5qc7TkuIaSZkIrplnjDgC8gZQs8NPKpJh3D8odP4rxk/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9pY29u/cy1mb3ItZnJlZS5j/b20vaWNvbmZpbGVz/L3BuZy81MTIvYnVs/YmFzYXVyLTEzMjA1/NjgxNzg2NTQwMTE1/NDAucG5n"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>HG-Web - Page d'accueil</title>
+</head>
+
+<body>
+    <main>
+        <section id="printWord">
+            <div>
+                <h2> The Word :</h2>
+                <h1 id="TitlePrintWord"> H _ _ _ O</h1>
+            </div>
+            <div>
+                <h1> Input : </h1>
+                <form method="post" action="/data">
+                    <input class="input" id="inputLetter" placeholder="Your letter / word" name="test">
+                    <input class="input" id="inputSubmit" value="" type="submit">
+                </form>
+            </div>
+        </section>
+        <div id="borderSeparation"></div>
+        <section id="AreaToInput">
+                <h1> You have {life} </h1>²
+            <div id="testHangman">
+                <div id="hangmantest1"></div>
+                <div id="hangmantest2"></div>
+                <div id="hangmantxest3"></div>
+                <div id="hangmantxest4"></div>
+                <div id="hangmantxest5"></div>
+                <div id="hangmantxest6"></div>
+                <div id="hangmantxest7"></div>
+                <div id="hangmantxest8"></div>
+                <div id="hangmantxest9"></div>
+                <div id="hangmantxest9bis"></div>
+                <div id="hangmantxest10"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
